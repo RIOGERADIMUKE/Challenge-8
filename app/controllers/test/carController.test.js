@@ -48,7 +48,7 @@ describe('handleCreateCar', () => {
     it('success resultr', async () => {
         const payloadCar = {
             name: "brio",
-            price: 50000,
+            price: 4000,
             size: "large",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/07/2020_Honda_Brio_Satya_E_1.2_DD1_%2820211006%29.jpg",
             isCurrentlyRented: false,
