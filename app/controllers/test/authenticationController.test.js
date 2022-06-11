@@ -14,9 +14,9 @@ describe("#createTokenFromUser", () => {
     it("it should create new token", async () => {
         const mockUser = {
             id: 1,
-            name: "luthfi",
-            email: "luthfi@gmail.com",
-            image: "luthfi.jpg",
+            name: "riogeradi",
+            email: "riogeradi@gmail.com",
+            image: "riogeradi.jpg",
         };
 
         const mockRole = {
@@ -50,9 +50,9 @@ describe("#decodeToken", () => {
     it("should decode token", async () => {
         const mockUser = {
             id: 1,
-            name: "luthfi",
-            email: "luthfi@gmail.com",
-            image: "luthfi.jpg",
+            name: "riogeradi",
+            email: "riogeradi@gmail.com",
+            image: "riogeradi.jpg",
         };
 
         const mockRole = {
@@ -83,7 +83,7 @@ describe("#decodeToken", () => {
 
 describe("#encryptPassword", () => {
     it("should encrypt the password", async () => {
-        const password = "luthfi12345";
+        const password = "rio12345";
         const encrypt = bcrypt.hashSync(password, 10);
 
         const app = new AuthenticationController({
@@ -98,7 +98,7 @@ describe("#encryptPassword", () => {
 
 describe("#verifyPassword", () => {
     it("should verify password and encrypted one", async () => {
-        const password = "luthfi12345";
+        const password = "rio12345";
 
         const encrypt = bcrypt.hashSync(password, 10);
 
@@ -117,9 +117,9 @@ describe("#verifyPassword", () => {
 describe("#handleRegister", () => {
     it("should register user", async () => {
         const payloadUser = {
-            name: "luthfi",
-            email: "luthfi@gmail.com",
-            password: "luthfi12345"
+            name: "riogeradi",
+            email: "riogeradi@gmail.com",
+            password: "rio12345"
         }
 
         const mockRequest = {

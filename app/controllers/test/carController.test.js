@@ -7,9 +7,9 @@ describe('handleGetCar', () => {
     it('handleGetCar', async () => {
 
         const payloadCar = {
-            name: "brio",
-            price: 50000,
-            size: "large",
+            name: "Honda",
+            price: 49090,
+            size: "Small",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/07/2020_Honda_Brio_Satya_E_1.2_DD1_%2820211006%29.jpg",
             isCurrentlyRented: false,
         };
@@ -47,9 +47,9 @@ describe('handleGetCar', () => {
 describe('handleCreateCar', () => {
     it('success resultr', async () => {
         const payloadCar = {
-            name: "brio",
-            price: 4000,
-            size: "large",
+            name: "BRIO",
+            price: 5620,
+            size: "Medium",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/07/2020_Honda_Brio_Satya_E_1.2_DD1_%2820211006%29.jpg",
             isCurrentlyRented: false,
         };
@@ -88,8 +88,8 @@ describe('handleCreateCar', () => {
         const err = new Error("not Found!");
 
         const payloadCar = {
-            name: "brio",
-            price: 50000,
+            name: "BRIOS",
+            price: 343200,
             size: "large",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/07/2020_Honda_Brio_Satya_E_1.2_DD1_%2820211006%29.jpg",
             isCurrentlyRented: false,
@@ -134,9 +134,9 @@ describe('handleCreateCar', () => {
 describe('handleListCar', () => {
     it('handleListCar ', async () => {
         const payloadCar = {
-            name: "brio",
-            price: 50000,
-            size: "large",
+            name: "Yamaha",
+            price: 62300,
+            size: "Medium",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/07/2020_Honda_Brio_Satya_E_1.2_DD1_%2820211006%29.jpg",
             isCurrentlyRented: false,
         };
@@ -182,9 +182,9 @@ describe('handleListCar', () => {
 describe('getCarFromRequest', () => {
     it('getCarFromRequest ', async () => {
         const payloadCar = {
-            name: "brio",
-            price: 50000,
-            size: "large",
+            name: "BRIO3",
+            price: 30350,
+            size: "Small",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/07/2020_Honda_Brio_Satya_E_1.2_DD1_%2820211006%29.jpg",
             isCurrentlyRented: false,
         };
@@ -217,8 +217,8 @@ describe('getCarFromRequest', () => {
 describe('handleDeleteCar', () => {
     it('handleeleteCar', async () => {
         const payloadCar = {
-            name: "brio",
-            price: 50000,
+            name: "RBIO4",
+            price: 34200,
             size: "large",
             image: "https://upload.wikimedia.org/wikipedia/commons/0/07/2020_Honda_Brio_Satya_E_1.2_DD1_%2820211006%29.jpg",
             isCurrentlyRented: false,

@@ -30,7 +30,7 @@ describe("handleNotFound", () => {
     it("should testing handleNotFound", async () => {
         const mockRequest = {};
         const method = "GET";
-        const url = "http:localhost:8000/asd"
+        const url = "http:localhost:2000/asd"
 
         const mockResponse = {
             status_code: 404,
